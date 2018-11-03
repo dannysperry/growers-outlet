@@ -20,4 +20,4 @@
 * Run locally
   - Local development is run with webpack and all es6 files in app/javascript/ are rendered by webpack. The backend is still handled in rails. In one window run `yarn build` and in another run `yarn start`.
 
-  - To mimic a production run of staticically served assets you can run `yarn prod:local`. This will reinstall yarn and all the projects node_modules as well as clean out the public/assets and public/packs folders. From there we manually build webpack and precompile assets for production, and then run the production server which holds static assets served from webpack.
+  - To mimic a production run of staticically served assets you can run `yarn prod:local`. This will reinstall yarn and all the projects node_modules as well as clean out the public/assets and public/packs folders. From there we manually build webpack and precompile assets for production, and then run the production server which holds static assets served from webpack
