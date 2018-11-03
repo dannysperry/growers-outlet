@@ -20,7 +20,7 @@ const routes = [
 export default routes
 
 const navRoutes = routes.reduce((prev, curr) => {
-  return [...prev, ...(curr.key !== 'Home' ? [curr] : []),]
+  return [...prev, ...(curr.key !== 'Home' ? [curr] : [])]
 }, [])
 
 export { navRoutes }

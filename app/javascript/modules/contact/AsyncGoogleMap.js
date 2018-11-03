@@ -4,7 +4,7 @@ import { withGoogleMap, withScriptjs, GoogleMap, Marker } from 'react-google-map
 
 const AsyncGoogleMap = compose(
   withProps({
-    googleMapURL: "https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyBZ8_pTTeGFMRqJSYZsS4b3PoQ_NEiP--c",
+    googleMapURL: "https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyCwbdlFUIyMPNoMfloD4Muvgcd7SelCAoM",
     loadingElement: <div>Loading...</div>,
     containerElement: <div className='google_map--container' />,
     mapElement: <div className='google_map--canvas' />
