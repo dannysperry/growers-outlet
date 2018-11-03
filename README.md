@@ -1,18 +1,6 @@
 # README
 
 * Ruby version - 2.4.0
-* System dependencies
-  npm/yarn, ruby, postgresql
-* Configuration
-  run `bundle install` and `yarn install`
-* Database creation
-  run `bin/rails db:create`
-* Database initialization
-  run `bin/rails db:migrate`
-* How to run the test suite
-  run `bundle exec rspec`
-* Services (job queues, cache servers, search engines, etc.)
-
 * Deployment instructions
   - push changes to master for auto deployment or manually deploy with the heroku remote in git.
 
