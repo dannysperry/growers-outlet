@@ -1,1 +1,1 @@
-web: bin/webpack && bin/rails server -p $PORT -b 0.0.0.0 -e production
+web: bin/rails server -p $PORT -b 0.0.0.0 -e production
